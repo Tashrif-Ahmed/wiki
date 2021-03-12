@@ -1,0 +1,11 @@
+input {
+    width: 40%;
+    height: 30px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -6,6 +6,7 @@ import {
   BrowserRouter as Router, Switch, Route, Link
 } from "react-router-dom";
 import Search from './components/Search/Search';
+import Post from './components/Post/Post';
 
 function App() {
 
@@ -17,6 +18,9 @@ function App() {
         <Switch>
           <Route path="/search">
             <Search></Search>
+          </Route>
+          <Route path="/post">
+            <Post></Post>
           </Route>
         </Switch>
 

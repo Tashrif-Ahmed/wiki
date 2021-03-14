@@ -1,6 +1,14 @@
 .cart{
-    border: 2px solid gray;
+    overflow:hidden;
+    text-align:center;
+    margin-bottom: 10px;
+}
+.mainCart{
+    box-shadow: 10px 10px 5px rgb(197, 197, 197);
+    border: 1px solid rgb(118, 118, 118);
+    margin: 20px auto;
+    border-radius: 5px;
     padding: 10px;
-    margin: 20px 5%;
+    max-width:250px;
     text-align:center;
 }

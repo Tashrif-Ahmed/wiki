@@ -22,7 +22,7 @@ const Search = () => {
     }
     if(cart.length != 0){
 
-        console.log(cart);
+        
         
     }
     
